@@ -12,8 +12,8 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 
 ## Database Tables & Fields
 
-**Customer**
+**Customer Table**
 
-```CustomerID``` A primary key, unique identifier for each customer.
-```FirstName``` The first name of the customer, text.
-```LastName``` The last name of the customer, text.
+```CustomerID``` A primary key, unique identifier for each customer.  
+```FirstName``` The first name of the customer, text.  
+```LastName``` The last name of the customer, text.  
