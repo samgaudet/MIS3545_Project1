@@ -9,3 +9,11 @@ Recreational Equipment, Inc., *REI*, is an American retail corporation that sell
 ## Relational Database Design
 
 At its core, REI buys inventory from suppliers and sells these items to their customers. Their relational database must store customer information and history, orders and sales invoices, and supply chain information including costs and inventory shipments.
+
+## Database Tables & Fields
+
+**Customer**
+
+```CustomerID``` A primary key, unique identifier for each customer.
+```FirstName``` The first name of the customer, text.
+```LastName``` The last name of the customer, text.
