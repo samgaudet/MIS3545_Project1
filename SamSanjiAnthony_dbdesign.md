@@ -17,3 +17,18 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```CustomerID``` A primary key, unique identifier for each customer.  
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
+
+**Order Table**
+
+```OrderID``` A primary key, unique identifier for each order.
+
+**Sales Table**
+
+```SaleID``` A primary key, unique identifier for each sale.
+
+**Employee Table**
+
+```EmployeeID``` A primary key, unique identifier for each employee.  
+```FirstName``` The first name of the customer, text.  
+```LastName``` The last name of the customer, text.  
+```Job``` The job function of a given employee, text.
