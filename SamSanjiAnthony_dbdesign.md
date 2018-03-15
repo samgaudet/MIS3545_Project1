@@ -8,7 +8,7 @@ Recreational Equipment, Inc., *REI*, is an American retail corporation that sell
 
 ## Relational Database Design
 
-At its core, REI buys inventory from suppliers and sells these items to their customers. Their relational database must store customer information and history, orders and sales invoices, and supply chain information including costs and inventory shipments.
+At its core, REI buys inventory from suppliers and sells these items to their customers. Their relational database must store customer information and history, orders and sales invoices, and supply chain information including costs and inventory shipments. The database designed in this project represents the database that would manage one store's personnel, customers, products, inventory, etc. Therefore, there is no online sales information included in this database design, as it is outside of the operations of a single store.
 
 ## Database Tables & Fields
 
@@ -32,3 +32,14 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
 ```Job``` The job function of a given employee, text.
+
+**Product Table**
+
+```ProductID```
+```ProductName```
+```Category```
+```Subcategory```
+```Brand```
+```ListPrice```
+```Color```
+```Size```
