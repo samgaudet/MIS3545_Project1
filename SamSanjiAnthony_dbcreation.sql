@@ -6,7 +6,7 @@ GO
 
 -- Create the Customer Table
 CREATE TABLE Customer(
-	CustomertID bigint NOT NULL PRIMARY KEY,
+	CustomerID bigint NOT NULL PRIMARY KEY,
 	FirstName varchar(50) NOT NULL,
 	LastName varchar(50) NOT NULL,
 	Email varchar(50) NOT NULL,
