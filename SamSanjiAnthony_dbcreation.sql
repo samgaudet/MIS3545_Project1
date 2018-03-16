@@ -56,18 +56,27 @@ CREATE TABLE Products(
 	Supplier varchar(50) NOT NULL,
 	Inventory char(10) NOT NULL);
 
+-- Add Foreign Key to SalesReceipt Table (SalesReceipt.EmployeeID = Employees.EmployeeID)
+
 ALTER TABLE SalesReceipt
 ADD CONSTRAINT FK_Employee_SalesReceipt
 FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID);
+
+-- Add Foreign Key to SalesReceipt Table (SalesReceipt.CustomerID = Customer.CustomerID)
 
 ALTER TABLE SalesReceipt
 ADD CONSTRAINT FK_Customer_SalesReceipt
 FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID);
 
+-- Add Foreign Key to SalesLineItem Table (SalesLineItem.SalesReceiptID = SalesReceipt.SalesReceiptID)
+
 ALTER TABLE SalesLineItem
 ADD CONSTRAINT FK_SalesReceipt_SalesLineItem
 FOREIGN KEY (SalesReceiptID) REFERENCES SalesReceipt(SalesReceiptID);
 
+-- Add Foreign Key to SalesLineItem Table (SalesLineItem.ProductID = Products.ProductID)
+
 ALTER TABLE SalesLineItem
 ADD CONSTRAINT FK_Products_SalesLineItem
 FOREIGN KEY (ProductID) REFERENCES Products(ProductID);
+
