@@ -126,6 +126,17 @@ WITH
 	FIRSTROW = 2
 );
 
+-- Add sales line item records to the Sales Line Item Table
+
+BULK INSERT SalesLineItem
+FROM 'C:\Users\sgaudet1\Documents\GitHub\MIS3545_Project1\table_records\SalesLineItem.csv'
+WITH
+(
+	FIELDTERMINATOR = ',',
+	ROWTERMINATOR = '\n',
+	ROWS_PER_BATCH = 222,
+	FIRSTROW = 2
+);
 
 -- Add sales receipt records to the Sales Receipt Table (NOTE: calculated field need NOT be specified)
 
