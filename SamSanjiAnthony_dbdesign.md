@@ -20,26 +20,28 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
 ```Email``` The email address of the customer, text.  
-```Phone``` The phone number of the customer.
+```Phone``` The phone number of the customer.  
 ```Street Address``` The street address of the customer.  
 ```City``` The city of the customer's address.  
 ```State``` The state in which the customer lives.  
 ```ZipCode``` The postal code for the city in which the customer lives.
 
-**Order Table**
-
-```OrderID``` A primary key, unique identifier for each order.
-
 **Sales Table**
 
-```SaleID``` A primary key, unique identifier for each sale.
+```SaleID``` A primary key, unique identifier for each sale.  
+```EmployeeID``` A foreign key, the employee ID of the employee who made the sale.
+```CustomerID``` A foreign key, the customer ID of the customer who bought the product(s).  
+```Date``` The date of the sale, datetime.  
+```ProductID``` A foreign key, the product that the customer is purchasing.  
+```OrderQuantity``` How many units of the specified product the customer is purchasing.  
 
 **Employee Table**
 
 ```EmployeeID``` A primary key, unique identifier for each employee.  
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
-```Job``` The job function of a given employee, text.
+```Job``` The job function of a given employee, text.  
+```Email``` The business email address of a given employee, text.
 
 **Product Table**
 
