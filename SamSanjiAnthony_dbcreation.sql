@@ -18,7 +18,7 @@ CREATE TABLE Customer(
 
 -- Create SalesReceipt Table
 CREATE TABLE SalesReceipt(
-	SaleID bigint NOT NULL PRIMARY KEY,
+	SalesReceiptID bigint NOT NULL PRIMARY KEY,
 	EmployeeID bigint NOT NULL,
 	CustomerID bigint NOT NULL,
 	Date datetime NOT NULL,
@@ -26,3 +26,31 @@ CREATE TABLE SalesReceipt(
 	TaxAmount money NOT NULL,
 	TotalDue AS Subtotal + TaxAmount);
 
+-- Create SalesLineItem Table
+CREATE TABLE SalesLineItem(
+	SalesLineItemID bigint NOT NULL,
+	ProductID bigint NOT NULL,
+	OrderQuantity char(10) NOT NULL,
+	ListPrice money NOT NULL,
+	LineTotal AS OrderQuantity * ListPrice);
+
+-- Create Employee Table
+CREATE TABLE Employees(
+	EmployeeID bigint NOT NULL,
+	FirstName varchar(50),
+	LastName varchar(50),
+	Job varchar(50),
+	Email varchar(50));
+
+-- Create Product Table
+CREATE TABLE Products(
+	ProductID bigint NOT NULL,
+	ProductName varchar(50) NOT NULL,
+	Category varchar(50) NOT NULL,
+	Subcategory varchar(50) NOT NULL,
+	Brand varchar(50) NOT NULL,
+	ListPrice money NOT NULL,
+	Color varchar(20),
+	Size varchar(10),
+	Supplier varchar(50) NOT NULL,
+	Inventory char(10) NOT NULL);

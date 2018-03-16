@@ -21,14 +21,15 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```LastName``` The last name of the customer, text.  
 ```Email``` The email address of the customer, text.  
 ```Phone``` The phone number of the customer.  
-```Street Address``` The street address of the customer.  
+```StreetAddress``` The street address of the customer.  
 ```City``` The city of the customer's address.  
 ```State``` The state in which the customer lives.  
 ```ZipCode``` The postal code for the city in which the customer lives.
 
 **SalesReceipt Table**
 
-```SaleID``` A primary key, unique identifier for each sale.  
+```SalesReceiptID``` A primary key, unique to each receipt.  
+```SaleLineItemID``` A foreign key, unique for each line item sale.  
 ```EmployeeID``` A foreign key, the employee ID of the employee who made the sale.  
 ```CustomerID``` A foreign key, the customer ID of the customer who bought the product(s).  
 ```Date``` The date of the sale, datetime.  
@@ -38,7 +39,7 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 
 **SalesLineItem Table**
 
-```SaleID``` A foreign key, unique identifier for each sale.  
+```SalesLineItemID``` A foreign key, unique identifier for each line item sale.  
 ```ProductID``` A foreign key, the product that the customer is purchasing.  
 ```OrderQuantity``` How many units of the specified product the customer is purchasing.  
 ```ListPrice``` Per-unit price of each product.  
