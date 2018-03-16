@@ -22,8 +22,8 @@ CREATE TABLE SalesReceipt(
 	EmployeeID bigint NOT NULL,
 	CustomerID bigint NOT NULL,
 	Date date NOT NULL,
-	Subtotal money NOT NULL,
-	TaxAmount money NOT NULL,
+	Subtotal money,
+	TaxAmount money,
 	TotalDue AS Subtotal + TaxAmount);
 
 -- Create SalesLineItem Table
