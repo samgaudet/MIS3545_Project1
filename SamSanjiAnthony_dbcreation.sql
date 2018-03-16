@@ -116,6 +116,15 @@ INSERT INTO Employees (EmployeeID, FirstName, LastName, Job, Email) VALUES
 
 -- Add product records to the Products Table
 
+BULK INSERT Products
+FROM 'C:\Users\sgaudet1\Documents\GitHub\MIS3545_Project1\table_records\Products.csv'
+WITH
+(
+	FIELDTERMINATOR = ',',
+	ROWTERMINATOR = '\n',
+	ROWS_PER_BATCH = 129,
+	FIRSTROW = 2
+);
 
 
 -- Add sales receipt records to the Sales Receipt Table (NOTE: calculated field need NOT be specified)
