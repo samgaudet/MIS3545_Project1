@@ -26,14 +26,23 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```State``` The state in which the customer lives.  
 ```ZipCode``` The postal code for the city in which the customer lives.
 
-**Sales Table**
+**SalesReceipt Table**
 
 ```SaleID``` A primary key, unique identifier for each sale.  
 ```EmployeeID``` A foreign key, the employee ID of the employee who made the sale.  
 ```CustomerID``` A foreign key, the customer ID of the customer who bought the product(s).  
 ```Date``` The date of the sale, datetime.  
+```Subtotal``` The total from all of the LineTotal corresponding to the SaleID.  
+```TaxAmount``` The tax associated with the Subtotal.  
+```TotalDue``` The subtotal plus the tax amount.  
+
+**SalesLineItem Table**
+
+```SaleID``` A foreign key, unique identifier for each sale.  
 ```ProductID``` A foreign key, the product that the customer is purchasing.  
 ```OrderQuantity``` How many units of the specified product the customer is purchasing.  
+```ListPrice``` Per-unit price of each product.  
+```LineTotal``` The total price for a given number of units of a certain product, calculated.
 
 **Employee Table**
 
@@ -45,12 +54,13 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 
 **Product Table**
 
-```ProductID```
-```ProductName```
-```Category```
-```Subcategory```
-```Brand```
-```ListPrice```
-```Color```
-```Size```
-```Inventory```
+```ProductID```  
+```ProductName```  
+```Category```  
+```Subcategory```  
+```Brand```  
+```ListPrice```  
+```Color```  
+```Size```  
+```Supplier```  
+```Inventory```  
