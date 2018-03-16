@@ -19,6 +19,12 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```CustomerID``` A primary key, unique identifier for each customer.  
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
+```Email``` The email address of the customer, text.  
+```Phone``` The phone number of the customer.
+```Street Address``` The street address of the customer.  
+```City``` The city of the customer's address.  
+```State``` The state in which the customer lives.  
+```ZipCode``` The postal code for the city in which the customer lives.
 
 **Order Table**
 
