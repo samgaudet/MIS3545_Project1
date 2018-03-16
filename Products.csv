@@ -1,0 +1,129 @@
+ProductID,ProductName,Category,Subcategory,Brand,ListPrice,Color,Size ,Inventory
+1,Diamondback Hook 27.5 Mountain Bike Gloss Green M,Bikes,Mountain Bikes,Diamondback,649.5,Green,M,3
+2,Diamondback Hook 27.5 Mountain Bike Gloss Green L,Bikes,Mountain Bikes,Diamondback,689.5,Green,L,2
+3,Diamondback Hook 27.5 Mountain Bike Gloss Blue S,Bikes,Mountain Bikes,Diamondback,619.5,Blue,S,1
+4,Diamondback Hook 27.5 Mountain Bike Gloss Blue M,Bikes,Mountain Bikes,Diamondback,649.5,Blue,M,3
+5,Diamondback Hook 27.5 Mountain Bike Gloss Blue L,Bikes,Mountain Bikes,Diamondback,689.5,Blue,L,4
+6,Ghost Kato 7 27.5 Mountain Bike Black S,Bikes,Mountain Bikes,Ghost,439.99,Black,S,2
+7,Ghost Kato 7 27.5 Mountain Bike Black M,Bikes,Mountain Bikes,Ghost,449.99,Black,M,3
+8,Ghost Kato 7 27.5 Mountain Bike Black L,Bikes,Mountain Bikes,Ghost,459.99,Black,L,1
+9,Salsa Timberjack NX1 Road Bike Orange S,Bikes,Road Bikes,Salsa,519.99,Orange,S,2
+10,Salsa Timberjack NX1 Road Bike Orange M,Bikes,Road Bikes,Salsa,539.99,Orange,M,4
+11,Salsa Timberjack NX1 Road Bike Orange L,Bikes,Road Bikes,Salsa,559.99,Orange,L,3
+12,Diamondback Overdrive Pro 27.5 Road Bike Green  S,Bikes,Road Bikes,Diamondback,819.99,Green,S,1
+13,Diamondback Overdrive Pro 27.5 Road Bike Green M,Bikes,Road Bikes,Diamondback,859.99,Green,M,2
+14,Diamondback Overdrive Pro 27.5 Road Bike Green L,Bikes,Road Bikes,Diamondback,899.99,Green,L,1
+15,The North Face Wawona 6 Tent Saffron Yellow,Tents,,The North Face,399,Saffron Yellow,6,4
+16,The North Face Wawona 6 Tent Forest Green,Tents,,The North Face,399,Forest Green,6,3
+17,Kelty Monarch 2 Tent Grey,Tents,,Kelty,139.99,Grey,2,8
+18,Kelty Monarch 2 Tent Red,Tents,,Kelty,139.99,Red,2,6
+19,Kelty Monarch 2 Tent Blue,Tents,,Kelty,139.99,Blue,2,4
+20,The North Face Stormbreak 2 Tent Oak,Tents,,The North Face,159,Oak,2,12
+21,The North Face Stormbreak 2 Tent Pine,Tents,,The North Face,159,Pine,2,11
+22,Big Agnes Big House 4 Tent Gold,Tents,,Big Agnes,299.95,Gold,4,6
+23,Big Agnes Big House 4 Tent Silver,Tents,,Big Agnes,299.95,Silver,4,3
+24,Big Agnes Big House 4 Tent Orange,Tents,,Big Agnes,299.95,Orange,4,8
+25,Big Agnes Big House 4 Tent Red,Tents,,Big Agnes,299.95,Red,4,10
+26,REI Co-op Men's Essentials Rain Jacket Blue S,Apparrel,Rain Jackets,REI Co-op,69.95,Blue,S ,3
+27,REI Co-op Men's Essentials Rain Jacket Blue M,Apparrel,Rain Jackets,REI Co-op,69.95,Blue,M,6
+28,REI Co-op Men's Essentials Rain Jacket Blue L,Apparrel,Rain Jackets,REI Co-op,69.95,Blue,L,7
+29,REI Co-op Men's Essentials Rain Jacket Black S,Apparrel,Rain Jackets,REI Co-op,69.95,Black,S ,4
+30,REI Co-op Men's Essentials Rain Jacket Black M,Apparrel,Rain Jackets,REI Co-op,69.95,Black,M,32
+31,REI Co-op Men's Essentials Rain Jacket Black L,Apparrel,Rain Jackets,REI Co-op,69.95,Black,L,7
+32,REI Co-op Women's Essentials Rain Jacket Blue S,Apparrel,Rain Jackets,REI Co-op,69.95,Blue,S ,5
+33,REI Co-op Women's Essentials Rain Jacket Blue M,Apparrel,Rain Jackets,REI Co-op,69.95,Blue,M,6
+34,REI Co-op Women's Essentials Rain Jacket Blue L,Apparrel,Rain Jackets,REI Co-op,69.95,Blue,L,3
+35,REI Co-op Women's Essentials Rain Jacket Black S,Apparrel,Rain Jackets,REI Co-op,69.95,Black,S ,8
+36,REI Co-op Women's Essentials Rain Jacket Black M,Apparrel,Rain Jackets,REI Co-op,69.95,Black,M,9
+37,REI Co-op Women's Essentials Rain Jacket Black L,Apparrel,Rain Jackets,REI Co-op,69.95,Black,L,11
+38,The North Face Men's Alpiner Down Jacket Green S,Apparrel,Insulation Jackets,The North Face,119.99,Green,S,2
+39,The North Face Men's Alpiner Down Jacket Green M,Apparrel,Insulation Jackets,The North Face,119.99,Green,M,8
+40,The North Face Men's Alpiner Down Jacket Green L,Apparrel,Insulation Jackets,The North Face,119.99,Green,L,12
+41,The North Face Women's Alpiner Down Jacket Green S,Apparrel,Insulation Jackets,The North Face,119.99,Green,S,3
+42,The North Face Women's Alpiner Down Jacket Green M,Apparrel,Insulation Jackets,The North Face,119.99,Green,M,5
+43,The North Face Women's Alpiner Down Jacket Green L,Apparrel,Insulation Jackets,The North Face,119.99,Green,L,8
+44,The North Face Men's Alpiner Down Jacket Black S,Apparrel,Insulation Jackets,The North Face,119.99,Black,S,3
+45,The North Face Men's Alpiner Down Jacket Black M,Apparrel,Insulation Jackets,The North Face,119.99,Black,M,7
+46,The North Face Men's Alpiner Down Jacket Black L,Apparrel,Insulation Jackets,The North Face,119.99,Black,L,5
+47,The North Face Women's Alpiner Down Jacket Black S,Apparrel,Insulation Jackets,The North Face,119.99,Black,S,9
+48,The North Face Women's Alpiner Down Jacket Black M,Apparrel,Insulation Jackets,The North Face,119.99,Black,M,12
+49,The North Face Women's Alpiner Down Jacket Black L,Apparrel,Insulation Jackets,The North Face,119.99,Black,L,8
+50,Black Diamond Men's Adventurer Pants 30 Beige,Apparrel,Pants,Black Diamond,79.95,Beige,30,3
+51,Black Diamond Men's Adventurer Pants 32 Beige,Apparrel,Pants,Black Diamond,79.95,Beige,32,4
+52,Black Diamond Men's Adventurer Pants 34 Beige,Apparrel,Pants,Black Diamond,79.95,Beige,34,5
+53,Black Diamond Men's Adventurer Pants 36 Beige,Apparrel,Pants,Black Diamond,79.95,Beige,36,2
+54,Black Diamond Men's Adventurer Pants 30 Chocolate,Apparrel,Pants,Black Diamond,79.95,Chocolate,30,3
+55,Black Diamond Men's Adventurer Pants 32 Chocolate,Apparrel,Pants,Black Diamond,79.95,Chocolate,32,6
+56,Black Diamond Men's Adventurer Pants 34 Chocolate,Apparrel,Pants,Black Diamond,79.95,Chocolate,34,3
+57,Black Diamond Men's Adventurer Pants 36 Chocolate,Apparrel,Pants,Black Diamond,79.95,Chocolate,36,5
+58,Royal Robins Women's Backcountry Pants 26 Brown,Apparrel,Pants,Royal Robins,68,Brown,26,8
+59,Royal Robins Women's Backcountry Pants 28 Brown,Apparrel,Pants,Royal Robins,68,Brown,28,6
+60,Royal Robins Women's Backcountry Pants 30 Brown,Apparrel,Pants,Royal Robins,68,Brown,30,7
+61,Royal Robins Women's Backcountry Pants 32 Brown,Apparrel,Pants,Royal Robins,68,Brown,32,8
+62,Royal Robins Women's Backcountry Pants 34 Brown,Apparrel,Pants,Royal Robins,68,Brown,34,4
+63,Black Diamond Beanie Aztec,Apparrel,Accessories,Black Diamond,19.99,Aztec,,8
+64,Black Diamond Beanie Riverbed,Apparrel,Accessories,Black Diamond,19.99,Riverbed,,7
+65,REI Co-op Unisex Wool Socks Red,Apparrel,Accessories,REI Co-op,15,Red,,4
+66,REI Co-op Unisex Wool Socks Green,Apparrel,Accessories,REI Co-op,15,Green,,3
+67,REI Co-op Unisex Wool Socks Blue,Apparrel,Accessories,REI Co-op,15,Blue,,7
+68,Prana Men's Classic Fleece Beige XS,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,XS,4
+69,Prana Men's Classic Fleece Beige S,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,S,3
+70,Prana Men's Classic Fleece Beige M,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,M,9
+71,Prana Men's Classic Fleece Beige L,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,L,6
+72,Prana Men's Classic Fleece Beige XL,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,XL,0
+73,Prana Men's Classic Fleece Green XS,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,XS,0
+74,Prana Men's Classic Fleece Green S,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,S,4
+75,Prana Men's Classic Fleece Green M,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,M,6
+76,Prana Men's Classic Fleece Green L,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,L,1
+77,Prana Men's Classic Fleece Green XL,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,XL,0
+78,Prana Women's Classic Fleece Beige XS,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,XS,0
+79,Prana Women's Classic Fleece Beige S,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,S,4
+80,Prana Women's Classic Fleece Beige M,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,M,11
+81,Prana Women's Classic Fleece Beige L,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,L,10
+82,Prana Women's Classic Fleece Beige XL,Apparrel,Sweaters and Fleeces,Prana,89.99,Beige,XL,9
+83,Prana Women's Classic Fleece Green XS,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,XS,7
+84,Prana Women's Classic Fleece Green S,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,S,6
+85,Prana Women's Classic Fleece Green M,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,M,3
+86,Prana Women's Classic Fleece Green L,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,L,7
+87,Prana Women's Classic Fleece Green XL,Apparrel,Sweaters and Fleeces,Prana,89.99,Green,XL,2
+88,Royal Robins Alpiner Wool Sweater Cherry S,Apparrel,Sweaters and Fleeces,Royal Robins,65,Cherry,S,9
+89,Royal Robins Alpiner Wool Sweater Cherry M,Apparrel,Sweaters and Fleeces,Royal Robins,65,Cherry,M,1
+90,Royal Robins Alpiner Wool Sweater Cherry L,Apparrel,Sweaters and Fleeces,Royal Robins,65,Cherry,L,4
+91,Royal Robins Alpiner Wool Sweater Sea Blue S,Apparrel,Sweaters and Fleeces,Royal Robins,65,Sea Blue,S,3
+92,Royal Robins Alpiner Wool Sweater Sea Blue M,Apparrel,Sweaters and Fleeces,Royal Robins,65,Sea Blue,M,8
+93,Royal Robins Alpiner Wool Sweater Sea Blue L,Apparrel,Sweaters and Fleeces,Royal Robins,65,Sea Blue,L,7
+94,Petzl Shell Helmet Red S,Climbing,Helmets,Petzl,24.99,Red,S,4
+95,Petzl Shell Helmet Red M,Climbing,Helmets,Petzl,24.99,Red,M,3
+96,Petzl Shell Helmet Red L,Climbing,Helmets,Petzl,24.99,Red,L,9
+97,Petzl Shell Helmet Blue S,Climbing,Helmets,Petzl,24.99,Blue,S,5
+98,Petzl Shell Helmet Blue M,Climbing,Helmets,Petzl,24.99,Blue,M,8
+99,Petzl Shell Helmet Blue L,Climbing,Helmets,Petzl,24.99,Blue,L,4
+100,Prana Catcher Harness Orange S,Climbing,Harnesses,Prana,49.99,Orange,S,9
+101,Prana Catcher Harness Orange M,Climbing,Harnesses,Prana,49.99,Orange,M,12
+102,Prana Catcher Harness Orange L,Climbing,Harnesses,Prana,49.99,Orange,L,4
+103,Metolius Unisex Classic Harness Black S,Climbing,Harnesses,Metolius,65,Black,S ,11
+104,Metolius Unisex Classic Harness Black M,Climbing,Harnesses,Metolius,65,Black,M,13
+105,Metolius Unisex Classic Harness Black L,Climbing,Harnesses,Metolius,65,Black,L,14
+106,Metolius Unisex Classic Harness Grey S,Climbing,Harnesses,Metolius,65,Blue,S ,12
+107,Metolius Unisex Classic Harness Grey M,Climbing,Harnesses,Metolius,65,Blue,M,14
+108,Metolius Unisex Classic Harness Grey L,Climbing,Harnesses,Metolius,65,Blue,L,16
+109,Five Ten Men's Dragon 6,Climbing,Climbing Shoes,Five Ten,149,,6,1
+110,Five Ten Men's Dragon 7,Climbing,Climbing Shoes,Five Ten,149,,7,2
+111,Five Ten Men's Dragon 8,Climbing,Climbing Shoes,Five Ten,149,,8,3
+112,Five Ten Men's Dragon 9,Climbing,Climbing Shoes,Five Ten,149,,9,2
+113,Five Ten Men's Dragon 10,Climbing,Climbing Shoes,Five Ten,149,,10,3
+114,Five Ten Women's Dragon 6,Climbing,Climbing Shoes,Five Ten,149,,6,1
+115,Five Ten Women's Dragon 7,Climbing,Climbing Shoes,Five Ten,149,,7,4
+116,Five Ten Women's Dragon 8,Climbing,Climbing Shoes,Five Ten,149,,8,3
+117,Five Ten Women's Dragon 9,Climbing,Climbing Shoes,Five Ten,149,,9,2
+118,Five Ten Women's Dragon 10,Climbing,Climbing Shoes,Five Ten,149,,10,1
+119,Petzl Men's Scarpa 6,Climbing,Climbing Shoes,Petzl,119.99,,6,3
+120,Petzl Men's Scarpa 7,Climbing,Climbing Shoes,Petzl,119.99,,7,2
+121,Petzl Men's Scarpa 8,Climbing,Climbing Shoes,Petzl,119.99,,8,4
+122,Petzl Men's Scarpa 9,Climbing,Climbing Shoes,Petzl,119.99,,9,1
+123,Petzl Men's Scarpa 10,Climbing,Climbing Shoes,Petzl,119.99,,10,2
+124,Petzl Women's Scarpa 6,Climbing,Climbing Shoes,Petzl,119.99,,6,3
+125,Petzl Women's Scarpa 7,Climbing,Climbing Shoes,Petzl,119.99,,7,2
+126,Petzl Women's Scarpa 8,Climbing,Climbing Shoes,Petzl,119.99,,8,4
+127,Petzl Women's Scarpa 9,Climbing,Climbing Shoes,Petzl,119.99,,9,1
+128,Petzl Women's Scarpa 10,Climbing,Climbing Shoes,Petzl,119.99,,10,2

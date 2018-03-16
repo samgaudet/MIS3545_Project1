@@ -21,7 +21,7 @@ CREATE TABLE SalesReceipt(
 	SalesReceiptID bigint NOT NULL PRIMARY KEY,
 	EmployeeID bigint NOT NULL,
 	CustomerID bigint NOT NULL,
-	Date datetime NOT NULL,
+	Date date NOT NULL,
 	Subtotal money NOT NULL,
 	TaxAmount money NOT NULL,
 	TotalDue AS Subtotal + TaxAmount);
@@ -48,13 +48,13 @@ CREATE TABLE Products(
 	ProductID bigint NOT NULL PRIMARY KEY,
 	ProductName varchar(50) NOT NULL,
 	Category varchar(50) NOT NULL,
-	Subcategory varchar(50) NOT NULL,
-	Brand varchar(50) NOT NULL,
+	Subcategory varchar(50),
+	Supplier varchar(50) NOT NULL,
 	ListPrice money NOT NULL,
 	Color varchar(20),
-	Size varchar(10),
-	Supplier varchar(50) NOT NULL,
-	Inventory char(10) NOT NULL);
+	Size varchar(50),
+	Inventory int);
+
 
 -- Add Foreign Key to SalesReceipt Table (SalesReceipt.EmployeeID = Employees.EmployeeID)
 
@@ -102,3 +102,22 @@ INSERT INTO Customer (CustomerID, FirstName, LastName, Email, Phone, StreetAddre
 (18, 'Tien', 'Krejci', 'tien@aol.com', 5333072188, '3672 Hillside Drive', 'North Billerica', 'Massachusetts', 01862),
 (19, 'Christel', 'Vencill', 'christel@aol.com', 6123937459, '2091 Hampton Meadows', 'South Boston', 'Massachusetts', 02127),
 (20, 'Natalie', 'Crisp', 'crispnatalie@gmail.com', 1985792142, '314 Lyon Avenue', 'Boston', 'Massachusetts', 02110);
+
+-- Add employee records to the Employees Table
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Job, Email) VALUES
+(1, 'Velma', 'Copeland', 'Sales Representative', 'vcopeland@rei.com'),
+(2, 'Lynne', 'Delgado', 'Sales Representative', 'ldelgado@rei.com'),
+(3, 'Ramiro', 'Watson', 'Sales Representative', 'rwatson@rei.com'),
+(4, 'Jackie', 'Spencer', 'Sales Representative', 'jspencer@rei.com'),
+(5, 'Allan', 'Price', 'Sales Manager', 'aprice@rei.com'),
+(6, 'Sue', 'Parker', 'Customer Service', 'sparker@rei.com'),
+(7, 'Margaret', 'Griffin', 'Customer Service', 'mgriffin@rei.com'),
+(8, 'Matt', 'Buchanan', 'Regional Manager', 'mbuchanan@rei.com');
+
+-- Add product records to the Products Table
+
+
+
+-- Add sales receipt records to the Sales Receipt Table (NOTE: calculated field need NOT be specified)
+--INSERT INTO SalesReceipt (SalesReceiptID, EmployeeID, CustomerID, Date, Subtotal, TaxAmount) VALUES
+--(1, 1, 1, 2018-02-22, 100, 10);
