@@ -128,5 +128,13 @@ WITH
 
 
 -- Add sales receipt records to the Sales Receipt Table (NOTE: calculated field need NOT be specified)
---INSERT INTO SalesReceipt (SalesReceiptID, EmployeeID, CustomerID, Date, Subtotal, TaxAmount) VALUES
---(1, 1, 1, 2018-02-22, 100, 10);
+
+BULK INSERT SalesReceipt
+FROM 'C:\Users\sgaudet1\Documents\GitHub\MIS3545_Project1\table_records\SalesReceipt.csv'
+WITH
+(
+	FIELDTERMINATOR = ',',
+	ROWTERMINATOR = '\n',
+	ROWS_PER_BATCH = 151,
+	FIRSTROW = 2
+);
