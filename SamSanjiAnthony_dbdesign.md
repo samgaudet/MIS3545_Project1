@@ -29,7 +29,7 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 **Sales Table**
 
 ```SaleID``` A primary key, unique identifier for each sale.  
-```EmployeeID``` A foreign key, the employee ID of the employee who made the sale.
+```EmployeeID``` A foreign key, the employee ID of the employee who made the sale.  
 ```CustomerID``` A foreign key, the customer ID of the customer who bought the product(s).  
 ```Date``` The date of the sale, datetime.  
 ```ProductID``` A foreign key, the product that the customer is purchasing.  
