@@ -91,7 +91,7 @@ INSERT INTO Customer (CustomerID, FirstName, LastName, Email, Phone, StreetAddre
 (7, 'Ebony', 'Mascarenas', 'ebony10@aol.com', 4857705482, '2744 Huntz Lane', 'Worcester', 'Massachusetts', 01608),
 (8, 'Jeanice', 'More', 'jeanice69@aol.com', 6178733362, '1164 Lyon Avenue', 'Boston', 'Massachusetts', 02110),
 (9, 'Herman', 'Albright', 'herman420@hotmail.com', 6011591607, '3995 Rockford Road', 'Bolton', 'Massachusetts', 01740),
-(10, 'Vella', 'Mccook', 'manillavella@aol.com', 7018456081, '1230 Randolph Street', 'Worcester', 'Massachusetts', 01610),
+(10, 'Vella', 'McCook', 'manillavella@aol.com', 7018456081, '1230 Randolph Street', 'Worcester', 'Massachusetts', 01610),
 (11, 'Jule', 'Blakemore', 'juuljule@gmail.com', 2629544297, '4159 Gerald L. Bates Drive', 'Boston', 'Massachusetts', 02107),
 (12, 'Shanel', 'Pua', 'shanel@babson.edu', 5935971729, '717 Hilltop Street', 'Springfield', 'Massachusetts', 01103),
 (13, 'Jacquie', 'Clinard', 'jax@aol.com', 2336767620, '1339 Romano Street', 'Franklin', 'Massachusetts', 02038),
