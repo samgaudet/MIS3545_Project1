@@ -4,7 +4,9 @@ Team Members: Sam Gaudet, Sanji Johari, Anthony Krichevskiy
 
 ## Company Background
 
-Recreational Equipment, Inc., *REI*, is an American retail corporation that sells sporting goods and outdoor gear. REI was founded in 1938, and now has approximately 154 stores in 36 states.
+Recreational Equipment, Inc., *REI*, is an American retail and outdoor recreation services corporation. REI was founded in Seattle, WA in 1938, and now has approximately 154 stores in 36 states.
+
+REI is organized as a consumer cooperative, where members have the ability to purchase a lifetime membership in order to receive classes, access to events, and a 5% per-year dividend. REI sells sporting goods, camping gear, travel equipment, and clothing, while focusing on environmental and social responsibility as well.
 
 ## Relational Database Design
 
@@ -43,3 +45,4 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 ```ListPrice```
 ```Color```
 ```Size```
+```Inventory```
