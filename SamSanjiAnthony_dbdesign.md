@@ -14,6 +14,10 @@ At its core, REI buys inventory from suppliers and sells these items to their cu
 
 ## Database Tables & Fields
 
+Here is the Entity Relationship Diagram for the REI database designed for this project, and described below:
+
+![REI ERD](/images/Project1_ERD.png)
+
 **Customer Table**
 
 ```CustomerID``` A primary key, unique identifier for each customer.  
