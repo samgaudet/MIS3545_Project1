@@ -20,38 +20,39 @@ Here is the Entity Relationship Diagram for the REI database designed for this p
 
 **Customer Table**
 
-```CustomerID``` A primary key, unique identifier for each customer.  
+```CustomerID``` A primary key, unique identifier for each customer, bigint.  
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
 ```Email``` The email address of the customer, text.  
-```Phone``` The phone number of the customer.  
-```StreetAddress``` The street address of the customer.  
-```City``` The city of the customer's address.  
-```State``` The state in which the customer lives.  
-```ZipCode``` The postal code for the city in which the customer lives.
+```Phone``` The phone number of the customer, char.  
+```StreetAddress``` The street address of the customer, text.  
+```City``` The city of the customer's address, text.  
+```State``` The state in which the customer lives, text.  
+```ZipCode``` The postal code for the city in which the customer lives, char.
 
 **SalesReceipt Table**
 
-```SalesReceiptID``` A primary key, unique to each receipt.  
-```SaleLineItemID``` A foreign key, unique for each line item sale.  
-```EmployeeID``` A foreign key, the employee ID of the employee who made the sale.  
-```CustomerID``` A foreign key, the customer ID of the customer who bought the product(s).  
-```Date``` The date of the sale, datetime.  
-```Subtotal``` The total from all of the LineTotal corresponding to the SaleID.  
-```TaxAmount``` The tax associated with the Subtotal.  
-```TotalDue``` The subtotal plus the tax amount.  
+```SalesReceiptID``` A primary key, unique to each receipt, bigint.  
+```SaleLineItemID``` A foreign key, unique for each line item sale, bigint.  
+```EmployeeID``` A foreign key, the employee ID of the employee who made the sale, bigint.  
+```CustomerID``` A foreign key, the customer ID of the customer who bought the product(s), bigint.  
+```Date``` The date of the sale, datetime, date.  
+```Subtotal``` The total from all of the LineTotal corresponding to the SaleID, money.  
+```TaxAmount``` The tax associated with the Subtotal, money.  
+```TotalDue``` The subtotal plus the tax amount, calculated (```Subtotal``` + ```TaxAmount```).  
 
 **SalesLineItem Table**
 
-```SalesLineItemID``` A foreign key, unique identifier for each line item sale.  
-```ProductID``` A foreign key, the product that the customer is purchasing.  
-```OrderQuantity``` How many units of the specified product the customer is purchasing.  
-```ListPrice``` Per-unit price of each product.  
-```LineTotal``` The total price for a given number of units of a certain product, calculated.
+```SalesLineItemID``` A primary key, unique identifier for each line item sale, bigint.  
+```SalesReceiptID``` A foreign key, the sales receipt associated with specific sales line items, bigint.  
+```ProductID``` A foreign key, the product that the customer is purchasing, bigint.  
+```OrderQuantity``` How many units of the specified product the customer is purchasing, char.  
+```ListPrice``` Per-unit price of each product, money.  
+```LineTotal``` The total price for a given number of units of a certain product, calculated (```ListPrice``` * ```OrderQuantity```).
 
 **Employee Table**
 
-```EmployeeID``` A primary key, unique identifier for each employee.  
+```EmployeeID``` A primary key, unique identifier for each employee, bigint.  
 ```FirstName``` The first name of the customer, text.  
 ```LastName``` The last name of the customer, text.  
 ```Job``` The job function of a given employee, text.  
@@ -59,13 +60,12 @@ Here is the Entity Relationship Diagram for the REI database designed for this p
 
 **Product Table**
 
-```ProductID```  
-```ProductName```  
-```Category```  
-```Subcategory```  
-```Brand```  
-```ListPrice```  
-```Color```  
-```Size```  
-```Supplier```  
-```Inventory```  
+```ProductID``` A primary key, unique identifier for each product, bigint.  
+```ProductName``` The name of a given product, text.  
+```Category``` The category name of a given product, text.  
+```Subcategory``` The subcategory name of a given product, text.  
+```Supplier``` The brand name of the product, text.  
+```ListPrice``` The listed retail price of the product, money.  
+```Color``` The associated color of a product if relevant, text.  
+```Size``` The associated size of a product if relevant, text.  
+```Inventory``` The on-hand inventory of a product in the store, integer.  
